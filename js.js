@@ -34,7 +34,7 @@ function gioca() {
             var main = document.getElementById("contenitore");
             main.style.display = "none";
             var risultato = document.getElementById("result");
-            risultato.innerHTML = '<video autoplay muted loop id="myVideo"> <source src="images/win.mp4" type="video/mp4" autoplay></video>';
+            risultato.innerHTML = '<video autoplay muted loop id="myVideo"> <source src="win.mp4" type="video/mp4" autoplay></video>';
         
             var screenWidth = window.innerWidth;
             var width = (screenWidth < 700) ? "100vw" : "50vw";
@@ -106,7 +106,7 @@ function contatore() {
                 var main = document.getElementById("contenitore");
                 main.style.display = "none";
                 var risultato = document.getElementById("result");
-                risultato.innerHTML = '<video autoplay muted loop id="myVideo"> <source src="images/win.mp4" type="video/mp4" autoplay></video>';
+                risultato.innerHTML = '<video autoplay muted loop id="myVideo"> <source src="win.mp4" type="video/mp4" autoplay></video>';
                 risultato.style.marginTop = "40vh";
 
                 return;
@@ -144,7 +144,7 @@ function contatore() {
                 var main = document.getElementById("contenitore");
                 main.style.display = "none";
                 var risultato = document.getElementById("result");
-                risultato.innerHTML = '<video autoplay muted loop id="myVideo"> <source src="images/loose.mp4" type="video/mp4" autoplay></video>';
+                risultato.innerHTML = '<video autoplay muted loop id="myVideo"> <source src="loose.mp4" type="video/mp4" autoplay></video>';
                 risultato.style.height = "80vh";
                 return;
             }, 1100);
